@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Custom Select Element</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h3>
+        <span>Custom Select Element by SoftGuy<br>Source Code aviable at </span>
+        <a href="https://github.com/AntonioSG41/HTMLTests/tree/main/Custom%20Select%20Element" target="_blank">GitHub</a>
+    </h3>
+    <div id="demo" class="select">
+        <div class="select-val"></div>
+        <button class="select-btn">Choose an option</button>
+        <div class="select-options">
+            <button class="select-option" data-val="Alpha">Alpha</button>
+            <button class="select-option" data-val="Beta">Beta</button>
+            <button class="select-option" data-val="Gamma">Gamma</button>
+        </div>
+    </div>
+    <button class="btn" onclick="btnGetValue()">Get Value</button>
+    <h4><span style="font-weight: 400;">Value of select :</span> <span id="value">None</span></h4>
+</body>
+</html>
