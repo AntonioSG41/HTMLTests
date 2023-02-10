@@ -13,15 +13,19 @@ a { text-decoration: none;
 a:hover { color: #2bf; }
 
 .btn {
-    background: #343439;
-    border: 1px solid #545459;
+    background: #08e;
+    border: 1px solid #08e;
     border-radius: 5px;
     padding: 3px 10px;
     font-size: 14px;
 }
 .btn:hover {
-    background: #444449;
-    border-color: #646469;
+    background: #09f;
+    border-color: #09f;
+}
+.btn:active {
+    background: #1af;
+    border-color: #1af;
 }
 
 /****************************/
@@ -46,10 +50,22 @@ a:hover { color: #2bf; }
 }
 .select-btn:hover { border-color: #646469; }
 
+.select-arrow {
+    height: 8px;
+    width: 8px;
+    float: right;
+    box-sizing: border-box;
+    border: 2px solid currentColor;
+    border-top: none;
+    border-left: none;
+    margin-top: 4px;
+    rotate: 45deg;
+}
+
 .select-options {
     background: #444449;
     border-radius: 5px;
-    min-width: fit-content;
+    min-width: 150px;
     padding: 5px 0;
     margin-top: 5px;
     position: absolute;
@@ -69,5 +85,5 @@ a:hover { color: #2bf; }
     background: #09f;
 }
 .select-option:active, .select-option.active {
-    background: #2bf;
+    background: #1af;
 }
